@@ -6,6 +6,9 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.1.2-646CFF?logo=vite)](https://vitejs.dev/)
 [![Zustand](https://img.shields.io/badge/Zustand-5.0.8-FF6B6B)](https://zustand-demo.pmnd.rs/)
+[![在线演示](https://img.shields.io/badge/在线演示-WeaveDream-00D4AA?logo=vercel)](https://weave-dream.vercel.app/)
+
+🌐 **在线演示**: [https://weave-dream.vercel.app/](https://weave-dream.vercel.app/)
 
 ## 📋 项目简介
 
