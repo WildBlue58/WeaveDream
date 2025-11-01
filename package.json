@@ -1,8 +1,23 @@
 {
-  "name": "lowcode-editor",
-  "private": true,
-  "version": "0.0.0",
+  "name": "weavedream-editor",
+  "version": "1.0.0",
+  "description": "织梦 (WeaveDream) - 一个基于 React + TypeScript 的可视化低代码编辑器，支持拖拽式组件编排、实时属性配置和 JSON 数据驱动渲染",
   "type": "module",
+  "keywords": [
+    "weavedream",
+    "织梦",
+    "lowcode",
+    "low-code",
+    "visual-editor",
+    "drag-drop",
+    "react",
+    "typescript",
+    "json-driven",
+    "component-editor"
+  ],
+  "author": "WildBlue58",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -10,6 +25,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^6.1.0",
     "@tailwindcss/vite": "^4.1.13",
     "allotment": "^1.20.4",
     "react": "^19.1.1",

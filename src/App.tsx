@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import LowcodeEditor from './editor';
+import WeaveDreamEditor from './editor';
 
 function App() {
 
   return (
-    <LowcodeEditor/>
+    <WeaveDreamEditor/>
   )
 }
 

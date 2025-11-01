@@ -15,9 +15,9 @@ import {
   Setting
 } from './components/Setting';
 
-export default function LowcodeEditor() {
+export default function WeaveDreamEditor() {
   return (
-    <div className="h-[100vh] flex flex-col">
+    <div className="h-[100vh] flex flex-col bg-gray-50">
       <Header/>
       <Allotment>
         <Allotment.Pane preferredSize={240} maxSize={300} minSize={200}>
@@ -31,5 +31,5 @@ export default function LowcodeEditor() {
         </Allotment.Pane>
       </Allotment>
     </div>
-  )
+  );
 }

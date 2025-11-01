@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="dreamGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764BA2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F093FB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="64" cy="64" r="60" fill="url(#dreamGradient)" />
+  
+  <!-- 编织网格 -->
+  <g stroke="#FFFFFF" stroke-width="1.5" opacity="0.8">
+    <!-- 水平线条 -->
+    <line x1="30" y1="40" x2="98" y2="40" />
+    <line x1="30" y1="60" x2="98" y2="60" />
+    <line x1="30" y1="80" x2="98" y2="80" />
+    <line x1="30" y1="100" x2="98" y2="100" />
+    
+    <!-- 垂直线条 -->
+    <line x1="40" y1="30" x2="40" y2="98" />
+    <line x1="60" y1="30" x2="60" y2="98" />
+    <line x1="80" y1="30" x2="80" y2="98" />
+    <line x1="100" y1="30" x2="100" y2="98" />
+  </g>
+  
+  <!-- 中心亮点（梦想的象征） -->
+  <circle cx="64" cy="64" r="12" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="64" cy="64" r="6" fill="#F093FB" opacity="0.8" />
+</svg>
